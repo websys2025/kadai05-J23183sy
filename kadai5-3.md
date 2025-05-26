@@ -4,6 +4,21 @@
 * "https://zipcloud.ibsnet.co.jp/api/search"
 * 機能は郵便番号を入れると住所を表示してくれて、県市区町まで表示する
 * リクエストとレスポンスのフォーマット
+* https://zipcloud.ibsnet.co.jp/api/search?zipcode=2630002
+* 
+{
+  "message": null,
+  "results": [
+    {
+      "zipcode": "2630002",
+      "prefcode": "12",
+      "address1": "千葉県",
+      "address2": "千葉市稲毛区",
+      "address3": "山王町",
+    }
+  ],
+  "status": 200
+}
 ### Q3-2. 各自で調査したAPIについて説明せよ。
 * APIの名称と参照URL
 * 天気API
